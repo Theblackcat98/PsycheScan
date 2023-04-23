@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"4ab3bfb4f63b2611","x":-410,"y":210,"width":290,"height":780,"color":"3","type":"group","label":"Diagnosis"},
+		{"id":"b14740d7de6ff312","x":-40,"y":230,"width":300,"height":650,"color":"2","type":"group","label":"More Info"},
+		{"type":"text","text":"Diagnostic Criteria","id":"42f991aa9304bca8","x":-365,"y":230,"width":200,"height":80},
+		{"id":"3ff75e78d7683ce5","x":-350,"y":372,"width":170,"height":110,"type":"text","text":"Diagnostic features "},
+		{"id":"7de576f8180d1e91","x":-390,"y":788,"width":250,"height":60,"type":"text","text":"Differential diagnosis"},
+		{"id":"dcb79bba7f50604c","x":-390,"y":910,"width":250,"height":60,"type":"text","text":"Comorbidity"},
+		{"id":"f1f9ca21f70c8dca","x":-390,"y":544,"width":250,"height":60,"type":"text","text":"Associated features supporting diagnosis"},
+		{"id":"f76d048c25260575","x":-390,"y":666,"width":250,"height":60,"type":"text","text":"Diagnostic markers"},
+		{"id":"81d32d53114192f1","x":-20,"y":250,"width":250,"height":60,"type":"text","text":"Prevalence"},
+		{"id":"7912748a18bdef79","x":-20,"y":350,"width":250,"height":60,"type":"text","text":"Development and course "},
+		{"id":"0f741ce94476efb8","x":-20,"y":450,"width":250,"height":60,"type":"text","text":"Risk and Prognosis Factors"},
+		{"id":"a0a15e1d05eb9f76","x":-20,"y":550,"width":250,"height":60,"type":"text","text":"Culture related diagnostic issues"},
+		{"id":"4ed4c17bd4ce0777","x":-20,"y":650,"width":250,"height":60,"type":"text","text":"Gender related diagnostic issues"},
+		{"type":"text","text":"# Disorder","id":"6641011ea40fbb4b","x":-200,"y":-60,"width":245,"height":100},
+		{"id":"722f8d7754f89d0c","x":-760,"y":250,"width":250,"height":60,"type":"text","text":"List of Requirements "},
+		{"id":"cec5ec9c14d1e990","x":-20,"y":758,"width":250,"height":60,"type":"text","text":"Functional Consequences "},
+		{"id":"4145c1a9648f8c29","x":109,"y":23,"width":151,"height":57,"type":"text","text":"ID= DSM & Gov"}
+	],
+	"edges":[
+		{"id":"9c362d90879b580c","fromNode":"6641011ea40fbb4b","fromSide":"bottom","toNode":"b14740d7de6ff312","toSide":"top"},
+		{"id":"88892c430c27249f","fromNode":"6641011ea40fbb4b","fromSide":"bottom","toNode":"4ab3bfb4f63b2611","toSide":"top"},
+		{"id":"8539da708a0d7b26","fromNode":"42f991aa9304bca8","fromSide":"left","toNode":"722f8d7754f89d0c","toSide":"right"},
+		{"id":"f1ff733ccdb6c497","fromNode":"6641011ea40fbb4b","fromSide":"right","toNode":"4145c1a9648f8c29","toSide":"left"}
+	]
+}
